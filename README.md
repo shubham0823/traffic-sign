@@ -62,19 +62,7 @@ Dataset
 
 ---
 
-## Project Structure
 
-traffic_sign_recognition.
-├── train.
-├── test.
-├── model.
-├── scripts.
-│   ├── preprocess.py.
-│   ├── train.py.
-│   ├── evaluate.py.
-│   ├── detect.py.
-├── README.md.
-└── requirements.txt.
 
 
 ---
