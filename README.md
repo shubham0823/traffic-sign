@@ -1,10 +1,10 @@
-#Traffic Sign Recognition System
+# Traffic Sign Recognition System
 
-##Overview
+## Overview
 
 This project implements a Traffic Sign Recognition System using a Convolutional Neural Network (CNN). The model is trained on a dataset containing 40,000 images of 40 different traffic signs. It uses data augmentation and advanced image processing techniques to achieve high accuracy in traffic sign detection and classification.
 
-##Features
+## Features
 
 Detects and classifies 40 types of traffic signs.
 
@@ -20,9 +20,9 @@ Easy integration with camera feeds for real-time recognition.
 
 ---
 
-##Installation and Setup
+## Installation and Setup
 
-###Prerequisites
+### Prerequisites
 
 Ensure the following libraries are installed in your environment:
 
@@ -43,7 +43,7 @@ Pandas
 Joblib
 
 
-####Install the required packages using pip:
+#### Install the required packages using pip:
 
 pip install numpy opencv-python matplotlib tensorflow keras scikit-learn pandas joblib
 
@@ -62,24 +62,24 @@ Dataset
 
 ---
 
-##Project Structure
+## Project Structure
 
 traffic_sign_recognition/
-├── train/                 # Training dataset
-├── test/                  # Testing dataset
-├── model/                 # Trained model files
+├── train/
+├── test/
+├── model/
 ├── scripts/
-│   ├── preprocess.py      # Preprocessing images
-│   ├── train.py           # Training the CNN model
-│   ├── evaluate.py        # Evaluating model performance
-│   ├── detect.py          # Real-time detection script
-├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── detect.py
+├── README.md
+└── requirements.txt
 
 
 ---
 
-##Code Explanation
+## Code Explanation
 
 1. Import Libraries
 
@@ -167,7 +167,7 @@ cv2.destroyAllWindows()
 
 ---
 
-##Results
+## Results
 
 Achieved high accuracy on the test set.
 
@@ -177,7 +177,7 @@ Successfully detects and classifies traffic signs in real time.
 
 ---
 
-##Future Improvements
+## Future Improvements
 
 1. Use a larger and more diverse dataset for better generalization.
 
@@ -192,14 +192,8 @@ Successfully detects and classifies traffic signs in real time.
 
 ---
 
-##Acknowledgments
-
-Dataset: [Specify the dataset source, e.g., GTSRB]
+## Acknowledgments
 
 Frameworks: Keras, TensorFlow, OpenCV
 
-
-License
-
-This project is licensed under the MAIT License.
 
